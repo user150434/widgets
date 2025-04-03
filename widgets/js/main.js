@@ -62,7 +62,7 @@ slider.oninput = function(){
 const paragraph = document.getElementById('js--text');
 const img = document.getElementById('js--image');
 //data ophalen
-let data = fetch("../data.json").then(
+let data = fetch("./data.json").then(
     function(BinnenGekomenData){
         return BinnenGekomenData.json();
     }).then(
